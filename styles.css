@@ -1,60 +1,55 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
     
-    background-image: url('https://images.pexels.com/photos/3394939/pexels-photo-3394939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.1)),url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter:  blur(10px);
+    background-position: center;
+    backdrop-filter:  blur(1px);
+    filter: brightness(1.1);
     
 }
 
-
-
-  /* p {
-    font-family: fantasy, sans-serif;
-    color: red;
-    font-size: 40px;
-    animation: slidein 1.5s ease-in-out forwards;
+.header-box {
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
 }
 
-@keyframes slidein {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-  } */
+.header-box-text {
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+  font-style: normal;
+  /* font-variation-settings: "wght" 100; */
+  color: rgb(255, 255, 255);
+  font-size: 300%; /* Set initial font size using em units */
+  margin-bottom: 100px;
+  
+}
 
-  p2,p {
-    font-family: 'Luckiest Guy', cursive;
-    color: rgb(255, 255, 255);
-    font-size: 110px;
-    z-index: 2;
-    position: absolute;
-    width: 1000px;
-    height: 40px;
-    top: 300px;
-    left: 50px;
-    text-align: left;
-    padding-left: 300px;
-    animation-duration: 3s;
-    /* animation-name: slidein; */
-  }
+.btn {
+  font-family: 'Aclonica', sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 200px;
+}
+
+.btn-full{
+  background-color: rgb(231, 70, 164);
+  color: aliceblue;
+}
+
+
+
   
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    75% {
-      font-size: 300%;
-      margin-left: 25%;
-      width: 150%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+
