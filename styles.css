@@ -32,11 +32,19 @@ text-align: center;
   /* font-variation-settings: "wght" 100; */
   color: rgb(255, 255, 255);
   font-size: 300%; /* Set initial font size using em units */
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   
 }
 
-.btn {
+.header-box-summery{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 150px;
+}
+
+.btn:link,
+.btn:visited { /*regular state or visited*/
   font-family: 'Aclonica', sans-serif;
   font-style: normal;
   text-decoration: none;
@@ -44,11 +52,17 @@ text-align: center;
   border-radius: 200px;
 }
 
-.btn-full{
-  background-color: rgb(231, 70, 164);
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e746a4;
   color: aliceblue;
 }
 
+.btn-full:hover,
+.btn-full:active{
+  background-color: #cb1a81;
+}
 
 
   
