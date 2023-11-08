@@ -64,6 +64,28 @@ text-align: center;
   background-color: #cb1a81;
 }
 
+.main-nav{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 130%;
+  margin-bottom: 150px;
+  
+}
+.main-nav il a:link,a:visited{/*every link in the list*/
+  display: inline-block;
+  margin-right: 40px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav il a:hover,a:active{
+  border-bottom: 2px solid #e746a4;
+  background-color: rgba(255, 255, 255,0.2);
+  border-radius: 10px;
+  padding: 5px;
+  transition: border-bottom 0.4s;
+}
+
 
   
 
