@@ -7,21 +7,23 @@ body, html {
 }
 
 body {
-    
-    background-image: linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.1)),url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image:url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     backdrop-filter:  blur(1px);
-    filter: brightness(1.1);
+    position: relative;
     
 }
+/* .header{
+  position:relative;
+} */
 
 .header-box {
-position: absolute;
+/* position: absolute; */
 top:50%;
 left: 50%;
-transform: translate(-50%,-50%);
+/* transform: translate(-50%,-50%); */
 text-align: center;
 }
 
@@ -31,7 +33,7 @@ text-align: center;
   font-style: normal;
   /* font-variation-settings: "wght" 100; */
   color: rgb(255, 255, 255);
-  font-size: 300%; /* Set initial font size using em units */
+  font-size: 370%;
   margin-bottom: 50px;
   
 }
@@ -40,8 +42,10 @@ text-align: center;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   color: rgb(255, 255, 255);
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  font-size: 150%;
 }
+
 
 .btn:link,
 .btn:visited { /*regular state or visited*/
@@ -67,8 +71,9 @@ text-align: center;
 .main-nav{
   font-family: 'Quicksand', sans-serif;
   font-size: 130%;
-  margin-bottom: 150px;
-  
+  margin-bottom: 120px;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 .main-nav il a:link,a:visited{/*every link in the list*/
   display: inline-block;
@@ -86,8 +91,49 @@ text-align: center;
   transition: border-bottom 0.4s;
 }
 
+.laptop-image {
+  max-width: 60%;
+  margin-top:300px;
+  padding-left: 150px ;
+}
+
+.about-heading {
+	color:#e746a4;
+	font-size:250%;
+	font-weight:500;
+	margin-bottom:40px;
+  margin-top:300px;
+  font-family: 'Aclonica', sans-serif;
+  padding-left: 50px ;
+}
+
+.about-para {
+	color:#000;
+	margin-bottom:50px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 120%;
+  line-height: 1.2;
+  max-width: 600px;
+  padding-left: 50px ;
+}
+
+.about-box {
+	margin-top:220px;
+  /* display: flex;
+  flex-direction: column; */
+}
 
 
+.about-box:first-child {
+	text-align:left;
+	padding:0 10%;
+}
+.about-box:last-child {
+	text-align:right;
+}
 
+.about-section {
+	padding-bottom:20px;
+}
   
 
