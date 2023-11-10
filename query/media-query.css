@@ -113,8 +113,10 @@
  
     .header-box-text{
         margin-top: 80%;
+		font-size: 300%;
     }
     .header-box-summery{
+		font-size: 150%;
         margin-bottom: 150px;
         margin-left: 10px;
     }
