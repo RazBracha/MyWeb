@@ -15,6 +15,8 @@ body {
     position: relative;
     
 }
+/***** Header section *****/
+
 /* .header{
   position:relative;
 } */
@@ -46,7 +48,7 @@ text-align: center;
   font-size: 150%;
 }
 
-
+/***** bottun section *****/
 .btn:link,
 .btn:visited { /*regular state or visited*/
   font-family: 'Aclonica', sans-serif;
@@ -67,6 +69,8 @@ text-align: center;
 .btn-full:active{
   background-color: #cb1a81;
 }
+
+/***** Navigation section *****/
 
 .main-nav{
   font-family: 'Quicksand', sans-serif;
@@ -90,6 +94,8 @@ text-align: center;
   padding: 5px;
   transition: border-bottom 0.4s;
 }
+
+/***** About section *****/
 
 .laptop-image {
   max-width: 60%;
@@ -136,4 +142,61 @@ text-align: center;
 	padding-bottom:20px;
 }
   
+/***** Projects section *****/
+.projects-section{
+  text-align: center;
+  background-color: #f4f4f4;
+}
+ .section-heading {
+  font-size: 250%;
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Aclonica', sans-serif;
+  margin-top: 150px;
+ }
 
+ .section-heading:after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color:#e746a4;
+  content: " ";
+  margin:30px auto 0 auto;
+ }
+
+ .project-portfilio{
+  margin-top: 10px;
+  list-style: none;
+  width: 100%;
+ }
+
+ .project-portfilio li{
+  display: block;
+  width: 25%;
+  float: left;
+  overflow: hidden;
+ }
+
+ .project-para{
+  color: white;
+  background-color: black;
+ }
+
+ .portfilio-image{
+  overflow: hidden;
+ }
+
+ .portfilio-image img{
+  width: 100%;
+  height: auto;
+  /* opacity: .7; */
+  /* padding-left: 100px; */
+  transform: scale(1);
+  transition:transform 0.5s, opacity 0.5s;
+  margin-bottom: 10px;
+ }
+
+ .portfilio-image img:hover{
+  transform: scale(1.15);
+  opacity: 1;
+ }
