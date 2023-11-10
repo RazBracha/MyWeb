@@ -1,26 +1,22 @@
 /* Big tablets to smaller laptop screens*/
-@media only screen and (max-width:1200px) {
-	html,
-	body {
-		font-size:14px;
+@media only screen and (max-width:1400px) {
+
+	.main-nav{
+		font-size: 150%;
+		margin-bottom: 150px;
 	}
-    .header-box-text{
-        margin-top: 15%;
-        font-size: 450%;
-    }
+
     .header-box-summery{
-        font-size: 200%;
-        margin-bottom: 250px;
+        font-size: 150%;
+		margin-bottom: 400px;
     }
-    
-	.about-para {
-		margin-bottom:20px;
-        font-size: 200%;
-        
-	}
+    .header-box-text{
+        font-size: 400%;
+    }
+
     .laptop-image{
         width:50%;
-    }
+    } 
 
 	.section-heading,
 	.testimonial-heading,
